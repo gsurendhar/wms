@@ -1,0 +1,622 @@
+img#bg {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+a:hover {font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-weight: bold;
+		  color: blue
+		  text-decoration: none;
+
+}
+ a:link {font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-weight: bold;
+		  color: blue;
+		  text-decoration: none;
+
+}
+ a:visited {font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-weight: bold;
+		  color: blue;
+		  text-decoration: none;
+
+}
+ a {font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-weight: bold;
+		  color: blue
+		  text-decoration: none;
+}
+
+.dropdown	{  
+	font: 12px/14px verdana, arial, helvetica, sans-serif;
+	font-style: normal; 
+	font-weight: normal;
+	color: #990000; 
+	line-height: normal;
+	}
+.textbox175 {
+	border: 1px solid #999;	/* Change the border as needed */
+	font: 10px/12px verdana, arial, helvetica, sans-serif; 
+	font-style: normal; 
+	font-weight: normal;
+	color: #333;	/* Change the color as needed */
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	height: 15px;
+	vertical-align: middle; 
+	width: 175px;
+	}
+.content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #990000;
+}
+.logintext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: FFFFFF;
+}
+.Blue-content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333399;
+	text-decoration: none;
+
+}
+.label {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333399;
+	text-decoration: none;
+
+}
+
+.maintitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #660000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none;
+}
+
+.subtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; color: #333399; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none;
+}
+.bottom-border {
+	font-weight: bold;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: thin;
+	border-left-width: medium;
+
+
+}
+.Red-content {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FF6600;
+}
+.Headings {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333399;
+}
+.border-top {
+	font-weight: bold;
+	border: 1px solid #CCCCCC;
+
+
+
+}
+.border {
+	font-weight: normal;
+	border-top: 1px solid #C1C1C1;
+	border-right: 1px solid #C1C1C1;
+	border-bottom: 1px solid #C1C1C1;
+	border-left: 1px solid #C1C1C1;
+
+
+}
+
+.readonly {
+	font-weight: normal;
+	border-top: 1px solid #C1C1C1;
+	border-right: 1px solid #C1C1C1;
+	border-bottom: 1px solid #C1C1C1;
+	border-left: 1px solid #C1C1C1;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #990000;
+
+}
+
+.black-text {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.field-text {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.button-image{
+	border:none; background-color:transparent;
+	}
+
+
+.slider{
+	display:none;
+	font-size: 14px;
+}
+.collapseSlider{
+	display:none;
+	font-size: 14px;
+	color: #0040FF;
+}
+
+.expandSlider{
+	display:block;
+	font-size: 14px;
+	color: #0040FF;
+}
+.sliderExpanded .collapseSlider{
+	display:block;
+	font-size: 11px;
+}
+.sliderExpanded .expandSlider{
+	display:none;
+	font-size: 11px;
+	
+}
+
+	
+/* from rt */
+
+body {
+    padding:0;
+    margin:0;
+    background: #FFFFF0  top left repeat-x ;
+    font-family: arial, helvetica, sans-serif;
+    color: #000000;
+}
+
+.value {
+ font-size: 11px;
+
+}
+
+
+table.myrt {
+    width: 100%;
+}
+
+table.mytable {
+    width: 100%;
+}
+
+/* in multi-column layouts, make sure we have an internal gutter */
+
+tr .boxcontainer {
+      padding-right: 1em;
+}
+
+tr .boxcontainer:last-child {
+      padding-right: 0;
+}
+
+
+
+
+.titlebox {
+ margin-top: 1em;
+ margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+.titlebox .titlebox-content {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    background-color: #efefef;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    border-bottom: 2px solid #aaa;
+    border-right: 2px solid #aaa;
+    border-radius: 0.5em;
+    padding: 1.5em 1em 1em 1em;
+}
+
+* html .titlebox {
+ border-top: none;
+ border-left: none;
+}
+
+.titlebox .titlebox {
+
+ margin-top: 1em;
+ margin-right: 0.25em;
+
+}
+
+.titlebox .titlebox .titlebox-content {
+    background-color: white;
+}
+
+
+.titlebox {
+ margin-left: 0em;
+ margin-right: 0em;
+ min-height: 1.25em;
+
+}
+
+
+
+.titlebox .titlebox-title {
+ position: relative;
+}
+
+.titlebox .titlebox-title a {
+ text-decoration: none;
+ color: black;
+
+}
+
+.titlebox .titlebox-title a:hover {
+ text-decoration: underline;
+
+}
+
+.titlebox.rolled-up .titlebox-title {
+    border-bottom: 1px solid #ccc;
+}
+
+.titlebox.rolled-up .titlebox-title .right {
+    display: none;
+}
+
+.titlebox .titlebox-title .left {
+    font-weight: bold;
+    background: #ccc;
+    margin-left: 1em;
+    padding: 0.25em 0.75em 0.25em 2em;
+    line-height: 1.5em;
+    -webkit-border-top-left-radius: 0.3em;
+    -webkit-border-top-right-radius: 0.3em;
+    -moz-border-radius-topleft: 0.3em;
+    -moz-border-radius-topright: 0.3em;
+    border-radius: 0.3em 0.3em 0 0;
+    border-right: 2px solid #aaa;
+}
+
+.titlebox .titlebox-title .right-empty {
+ display:none;
+}
+
+.titlebox .titlebox-title .right {
+  position: absolute;
+   right: 2px;
+   top: 1.75em;
+  font-size: 0.9em;
+  background: #dedede;
+  border-left: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ padding-right: 0.4em;
+ padding-left: 0.4em;
+ padding-bottom: 0.2em;
+ padding-top: 0.5em;
+ -moz-border-radius-bottomleft: 0.25em;
+ -webkit-border-bottom-left-radius: 0.25em;
+
+
+ -moz-border-radius-topright: 0.25em;
+ -webkit-border-top-right-radius: 0.25em;
+
+  border-radius: 0 0.25em 0 0.25em;
+
+
+}
+
+.titlebox .titlebox-title .right a,
+.titlebox .titlebox-title .right a:visited {
+ color: #000;
+}
+
+.titlebox .titlebox-title .widget a {
+  display: block;
+  margin: 0;
+  width: 20px;
+
+  background: url(../images/rollup-arrow.gif) no-repeat;
+  background-position: center 0;
+  
+  position: absolute;
+  top: 0.5em;
+  left: 1.2em;
+  
+  padding: 7px 0 0 0;
+  overflow: hidden;
+}
+
+.titlebox.rolled-up .titlebox-title .widget a {
+    background-image: url(../images/rolldown-arrow.gif);
+}
+
+
+table.queue-summary, table.collection-as-table {
+  margin-top: 0.75em;
+  font-size: 0.9em;
+  border: 1px solid #aaa;
+  border-bottom: 2px solid #999;
+  border-right: 2px solid #999;
+  border-spacing: 0;
+  width: 100%;
+
+}
+
+table.queue-summary tr>*:first-child {
+ padding-left: 1em;
+
+}
+
+
+table.queue-summary tr>*:last-child {
+ padding-right: 1em;
+
+}
+
+table.queue-summary a, table.collection-as-table a  {
+  font-weight: bold;
+}
+
+
+table.collection-as-table th.collection-as-table {
+  background: #ddd;
+ font-size: 0.9em;
+  margin-bottom: 0.5em;
+  text-align: left;
+
+}
+
+
+table.queue-summary th.collection-as-table {
+ font-size: 0.9em;
+  margin-bottom: 0.5em;
+  text-align: right;
+
+}
+
+table.queue-summary th.collection-as-table:first-child {
+  text-align: left;
+
+}
+
+
+tr.collection-as-table+tr.collection-as-table th {
+ border-bottom: 2px solid grey;
+
+}
+
+
+
+
+table.queue-summary td {
+  background: #efefef;
+  border-bottom: 1px solid #ccc;
+}
+
+
+
+tr.evenline td {
+  background: #eee;
+}
+
+tr.oddline td {
+  background: #fff;
+
+}
+
+tr.evenline td, tr.oddline td {
+ padding-top: 0.5em;
+}
+
+
+
+tr.evenline+tr.evenline td, tr.oddline+tr.oddline td{
+ padding-top: 0;
+ border: none;
+}
+
+
+
+table.collection-as-table td:first-child,
+table.collection-as-table th:first-child {
+  padding-left: 1em;
+    color: #990000;
+}
+
+table.collection-as-table td:last-child, table.collection-as-table th:last-child {
+  padding-right: 1em;
+    color: #990000;
+}
+
+th.collection-as-table , td.collection-as-table {
+ padding-right: 0.5em;
+   color: #990000;
+}
+
+.pagenum.a:hover, .paging a.nav:hover{
+text-decoration: underline;
+}
+
+
+.pagenum *, .paging a.nav{
+padding: .5em;
+}
+
+.currentpage{
+text-decoration: none;
+font-weight: bold;
+background: #eee;
+}
+
+div.paging{
+text-align: center;
+padding-bottom: 1em;
+}
+
+
+/**
+  * From aileron/main.css: @import "ticket-lists.css";
+  */
+
+table.queue-summary, table.collection-as-table {
+  margin-top: 0.75em;
+  font-size: 0.9em;
+  border: 1px solid #aaa;
+  border-bottom: 2px solid #999;
+  border-right: 2px solid #999;
+  border-spacing: 0;
+  width: 100%;
+
+}
+
+table.queue-summary tr>*:first-child {
+ padding-left: 1em;
+
+}
+
+
+table.queue-summary tr>*:last-child {
+ padding-right: 1em;
+
+}
+
+table.queue-summary a, table.collection-as-table a  {
+  font-weight: bold;
+}
+
+
+table.collection-as-table th.collection-as-table {
+  background: #ddd;
+ font-size: 0.9em;
+  margin-bottom: 0.5em;
+  text-align: left;
+
+}
+
+
+table.queue-summary th.collection-as-table {
+ font-size: 0.9em;
+  margin-bottom: 0.5em;
+  text-align: right;
+
+}
+
+table.queue-summary th.collection-as-table:first-child {
+  text-align: left;
+
+}
+
+
+tr.collection-as-table+tr.collection-as-table th {
+ border-bottom: 2px solid grey;
+
+}
+
+
+
+
+table.queue-summary td {
+  background: #efefef;
+  border-bottom: 1px solid #ccc;
+}
+
+
+
+tr.evenline td {
+  background: #eee;
+}
+
+tr.oddline td {
+  background: #fff;
+
+}
+
+tr.evenline td, tr.oddline td {
+ padding-top: 0.5em;
+}
+
+
+
+tr.evenline+tr.evenline td, tr.oddline+tr.oddline td{
+ padding-top: 0;
+ border: none;
+}
+
+
+
+table.collection-as-table td:first-child,
+table.collection-as-table th:first-child {
+  padding-left: 1em;
+
+}
+
+table.collection-as-table td:last-child, table.collection-as-table th:last-child {
+  padding-right: 1em;
+}
+
+th.collection-as-table , td.collection-as-table {
+ padding-right: 0.5em;
+   }
+
+.pagenum.a:hover, .paging a.nav:hover{
+text-decoration: underline;
+}
+
+
+.pagenum *, .paging a.nav{
+padding: .5em;
+}
+
+.currentpage{
+text-decoration: none;
+font-weight: bold;
+background: #eee;
+}
+
+div.paging{
+text-align: center;
+padding-bottom: 1em;
+}
+
+
+/* full-page ticket lists */
+#body>table.collection-as-table {
+    margin-bottom: 2em;
+
+}
+
+
