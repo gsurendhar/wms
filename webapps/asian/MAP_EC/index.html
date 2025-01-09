@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css"><link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"><link rel="stylesheet" href="css/L.Control.Locate.min.css">
+        <link rel="stylesheet" href="css/qgis2web.css">
+        <link rel="stylesheet" href="css/Control.OSMGeocoder.css">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+	table{
+		border-collapse:collapse;
+		}
+        </style>
+        <title>East champaran_Rainfall </title>
+    </head>
+    <body>
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="50%"><img src="../images/logo_bwds.jpg" alt="" width="100%" height="100" /></td>
+        
+		<td height="100%" align="left" valign="bottom" scope="col">
+		<img src="../images/legend.jpg" width="100%" height="75" />
+      </tr>
+    </table>
+
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script><script src="js/L.Control.Locate.min.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="js/Control.OSMGeocoder.js"></script>
+        <script src="data/East_Champaran_0.js"></script>
+        <script src="data/East_Champaran_Mandal_Boundary_1.js"></script>
+        <script src="data/Bihar_AWSmasterdata_EastChampa_2.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:26, minZoom:1
+        }).fitBounds([[26.1592369889,84.1558443557],[27.0812230889,85.6736992016]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
+        L.control.locate().addTo(map);
+        var bounds_group = new L.featureGroup([]);
+        var basemap0 = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+            maxZoom: 26
+        });
+        basemap0.addTo(map);
+        function setBounds() {
+        }
+        function pop_East_Champaran_0(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['OBJECTID'] !== null ? Autolinker.link(String(feature.properties['OBJECTID'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['DIST_CEN_C'] !== null ? Autolinker.link(String(feature.properties['DIST_CEN_C'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Shape_Leng'] !== null ? Autolinker.link(String(feature.properties['Shape_Leng'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Shape_Area'] !== null ? Autolinker.link(String(feature.properties['Shape_Area'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Dist_Name'] !== null ? Autolinker.link(String(feature.properties['Dist_Name'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_East_Champaran_0_0() {
+            return {
+                pane: 'pane_East_Champaran_0',
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fillOpacity: 0,
+            }
+        }
+        map.createPane('pane_East_Champaran_0');
+        map.getPane('pane_East_Champaran_0').style.zIndex = 400;
+        map.getPane('pane_East_Champaran_0').style['mix-blend-mode'] = 'normal';
+        var layer_East_Champaran_0 = new L.geoJson(json_East_Champaran_0, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_East_Champaran_0',
+            onEachFeature: pop_East_Champaran_0,
+            style: style_East_Champaran_0_0,
+        });
+        bounds_group.addLayer(layer_East_Champaran_0);
+        map.addLayer(layer_East_Champaran_0);
+        function pop_East_Champaran_Mandal_Boundary_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['OBJECTID'] !== null ? Autolinker.link(String(feature.properties['OBJECTID'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['BLK_C_2011'] !== null ? Autolinker.link(String(feature.properties['BLK_C_2011'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Shape_Leng'] !== null ? Autolinker.link(String(feature.properties['Shape_Leng'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Shape_Area'] !== null ? Autolinker.link(String(feature.properties['Shape_Area'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['OBJECTID_1'] !== null ? Autolinker.link(String(feature.properties['OBJECTID_1'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['BLK_C_2012'] !== null ? Autolinker.link(String(feature.properties['BLK_C_2012'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Shape_Le_1'] !== null ? Autolinker.link(String(feature.properties['Shape_Le_1'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Shape_Ar_1'] !== null ? Autolinker.link(String(feature.properties['Shape_Ar_1'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Blk_Name'] !== null ? Autolinker.link(String(feature.properties['Blk_Name'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Dist_Name'] !== null ? Autolinker.link(String(feature.properties['Dist_Name'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_East_Champaran_Mandal_Boundary_1_0() {
+            return {
+                pane: 'pane_East_Champaran_Mandal_Boundary_1',
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(203,224,202,1.0)',
+            }
+        }
+        map.createPane('pane_East_Champaran_Mandal_Boundary_1');
+        map.getPane('pane_East_Champaran_Mandal_Boundary_1').style.zIndex = 401;
+        map.getPane('pane_East_Champaran_Mandal_Boundary_1').style['mix-blend-mode'] = 'normal';
+        var layer_East_Champaran_Mandal_Boundary_1 = new L.geoJson(json_East_Champaran_Mandal_Boundary_1, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_East_Champaran_Mandal_Boundary_1',
+            onEachFeature: pop_East_Champaran_Mandal_Boundary_1,
+            style: style_East_Champaran_Mandal_Boundary_1_0,
+        });
+        bounds_group.addLayer(layer_East_Champaran_Mandal_Boundary_1);
+        map.addLayer(layer_East_Champaran_Mandal_Boundary_1);
+        function pop_Bihar_AWSmasterdata_EastChampa_2(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">ClientID</th>\
+                        <td>' + (feature.properties['ClientID'] !== null ? Autolinker.link(String(feature.properties['ClientID'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">District</th>\
+                        <td>' + (feature.properties['District'] !== null ? Autolinker.link(String(feature.properties['District'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Block</th>\
+                        <td>' + (feature.properties['Block'] !== null ? Autolinker.link(String(feature.properties['Block'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Location</th>\
+                        <td>' + (feature.properties['Location'] !== null ? Autolinker.link(String(feature.properties['Location'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Date_Time</th>\
+                        <td>' + (feature.properties['Date_Time'] !== null ? Autolinker.link(String(feature.properties['Date_Time'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Latitude</th>\
+                        <td>' + (feature.properties['Latitude'] !== null ? Autolinker.link(String(feature.properties['Latitude'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Longitude</th>\
+                        <td>' + (feature.properties['Longitude'] !== null ? Autolinker.link(String(feature.properties['Longitude'])) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Rain (mm)</th>\
+                        <td>' + (feature.properties['Rain (mm)'] !== null ? Autolinker.link(String(feature.properties['Rain (mm)'])) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Bihar_AWSmasterdata_EastChampa_2_0(feature) {
+            if (feature.properties['Rain (mm)'] >= 0.000000 && feature.properties['Rain (mm)'] <= 0.000000 ) {
+                return {
+                pane: 'pane_Bihar_AWSmasterdata_EastChampa_2',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(0,0,0,0.419608)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,0,0,0.419608)',
+            }
+            }
+            if (feature.properties['Rain (mm)'] >= 0.000000 && feature.properties['Rain (mm)'] <= 2.500000 ) {
+                return {
+                pane: 'pane_Bihar_AWSmasterdata_EastChampa_2',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(77,187,233,1.0)',
+            }
+            }
+            if (feature.properties['Rain (mm)'] >= 2.500000 && feature.properties['Rain (mm)'] <= 15.500000 ) {
+                return {
+                pane: 'pane_Bihar_AWSmasterdata_EastChampa_2',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(42,112,254,1.0)',
+            }
+            }
+            if (feature.properties['Rain (mm)'] >= 15.500000 && feature.properties['Rain (mm)'] <= 64.500000 ) {
+                return {
+                pane: 'pane_Bihar_AWSmasterdata_EastChampa_2',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(133,224,80,1.0)',
+            }
+            }
+            if (feature.properties['Rain (mm)'] >= 64.500000 && feature.properties['Rain (mm)'] <= 115.500000 ) {
+                return {
+                pane: 'pane_Bihar_AWSmasterdata_EastChampa_2',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(31,80,33,1.0)',
+            }
+            }
+            if (feature.properties['Rain (mm)'] >= 115.500000 && feature.properties['Rain (mm)'] <= 204.500000 ) {
+                return {
+                pane: 'pane_Bihar_AWSmasterdata_EastChampa_2',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(250,112,13,1.0)',
+            }
+            }
+            if (feature.properties['Rain (mm)'] >= 204.500000 && feature.properties['Rain (mm)'] <= 500.000000 ) {
+                return {
+                pane: 'pane_Bihar_AWSmasterdata_EastChampa_2',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(0,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(179,0,0,1.0)',
+            }
+            }
+        }
+        map.createPane('pane_Bihar_AWSmasterdata_EastChampa_2');
+        map.getPane('pane_Bihar_AWSmasterdata_EastChampa_2').style.zIndex = 402;
+        map.getPane('pane_Bihar_AWSmasterdata_EastChampa_2').style['mix-blend-mode'] = 'normal';
+        var layer_Bihar_AWSmasterdata_EastChampa_2 = new L.geoJson(json_Bihar_AWSmasterdata_EastChampa_2, {
+            attribution: '<a href=""></a>',
+            pane: 'pane_Bihar_AWSmasterdata_EastChampa_2',
+            onEachFeature: pop_Bihar_AWSmasterdata_EastChampa_2,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_Bihar_AWSmasterdata_EastChampa_2_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_Bihar_AWSmasterdata_EastChampa_2);
+        map.addLayer(layer_Bihar_AWSmasterdata_EastChampa_2);
+        var osmGeocoder = new L.Control.OSMGeocoder({
+            collapsed: false,
+            position: 'topright',
+            text: 'Search',
+        });
+        osmGeocoder.addTo(map);
+        setBounds();
+        var i = 0;
+        layer_East_Champaran_0.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Dist_Name'] !== null?String('<div style="color: #000000; font-size: 18pt; font-weight: bold; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Dist_Name']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_East_Champaran_0'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
+        layer_East_Champaran_Mandal_Boundary_1.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Blk_Name'] !== null?String('<div style="color: #000000; font-size: 10pt; font-weight: bold; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Blk_Name']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_East_Champaran_Mandal_Boundary_1'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        resetLabels([layer_EastChamparan_0,layer_EastChamparanMandalBoundary_1]);
+        map.on("zoomend", function(){
+            resetLabels([layer_EastChamparan_0,layer_EastChamparanMandalBoundary_1]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_EastChamparan_0,layer_EastChamparanMandalBoundary_1]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_EastChamparan_0,layer_EastChamparanMandalBoundary_1]);
+        });
+        </script>
+    </body>
+</html>
