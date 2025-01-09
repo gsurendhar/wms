@@ -1,0 +1,333 @@
+a.navLinks:hover
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #6699FF; 
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a.navLinks
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.pageHeaderText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FFFFFF; 
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.commentHeaderText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FFFFFF; 
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.commentHeaderBlueText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.commentText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.commentBigText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.loginText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FFFFFF; 
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.loginHighLightText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #99FFCC; 
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.loginHighLightBigText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.pageHeaderBlueText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003300; 
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.smallNavyText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 9px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.customerDetailsText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #003300; 
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.customerDetailsText-old
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #003300; 
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.customerDetailsWhiteText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #FFFFFF; 
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+a.customerDetailsText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+a.customerDetailsText:hover
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #FFFFFF; 
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.accountDetailsText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #006633; 
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.accountDetailsNegText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FF0000; 
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+a.accountDetailsLink
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: normal;
+	text-decoration: underline;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+a.accountDetailsLink:hover
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FFFFFF; 
+	font-weight: normal;
+	text-decoration: underline;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.addressDetailsText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.resultHeaderText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.resultText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+a.resultText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #008000; 
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+a.resultText:hover
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #FF0000; 
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.errorText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: #99FFCC; 
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.blueCapText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 10px;
+	margin-right: 3px;
+}
+
+.whiteText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FFFFFF; 
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.cellLightOff {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #006633; 
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.cellLightOn { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FFFFFF; 
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+	background-color: #33CC99;
+	cursor: hand;
+}
