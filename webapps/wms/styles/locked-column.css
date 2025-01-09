@@ -1,0 +1,184 @@
+
+div#tbl-container {
+width: 900px;
+height: 400px;
+overflow: auto;
+scrollbar-base-color:#cccc99;
+}
+
+.tablelock {
+table-layout: fixed;
+border-collapse: collapse;
+}
+
+div#tbl-container table th {
+width: 110px;
+}
+
+thead th, thead th.locked	{
+font-family: Verdana,Tahoma;
+font-size: 10px;
+font-weight: bold;
+text-align: center;
+background-color: #cccc99;
+color: #336699;
+border-right: 1px solid silver;
+position:relative;
+cursor: default; 
+}
+	
+thead th {
+top: expression(document.getElementById("regBoxout").scrollTop-1); /* IE5+ only */
+z-index: 20;
+}
+
+thead th.locked {z-index: 30;}
+
+td.locked,  th.locked{
+background-color: #ffeaff;
+font-weight: bold;
+border-right: 1px solid silver;
+left: expression(document.getElementById("regBoxout").scrollLeft); /* IE5+ only */
+position: relative;
+z-index: 10;
+}
+
+
+/* ------------------------------------------------------------------------------------------------ */
+
+	 HTML, BODY, TABLE, TD
+	  	{
+		 font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+		 color: #000; 
+	 	 font-size:12px;
+	 	}
+	 	
+	DIV.header_B	
+		{
+		 border: 1px solid #000; 
+		 padding: 4px 4px 4px 10px;
+		 background: #ccc;
+		}	 	 	
+		
+ 	DIV.container_B
+		{
+		 border-top-width: 0px; 
+		 border-top-right: 1px; 
+		 border-top-bottom: 1px; 
+		 border-top-left: 1px; 
+		 padding: 9px;
+		}
+		
+	.border
+		{
+		 border: 1px solid #000;
+		}
+						
+	SPAN.font_subheading
+		{
+		 font-weight: bold;
+		}	
+
+/* ------------------------------------------------------------------------------------------------ */
+
+	
+	DIV.scrollable_div_A
+		{
+		 border-right-width: 1px;
+		 border-bottom-width: 1px;
+		 border-left-width: 1px;
+		}
+		
+
+	.bgcolor_container_A
+		{
+		 background: #ddd;
+		}
+						
+	.Row_On
+		{
+		 background: #fff;
+		} 						
+/* ------------------------------------------------------------------------------------------------ */
+
+
+	TABLE.Tabular_Data
+		{
+			border: 0;
+			border-collapse:collapse;
+			/* this is here to "hide" the left td border under the DIV border */
+			position:relative;
+		 	left: -1px;
+	
+		}
+	TABLE.Tabular_Data td, TABLE.Tabular_Data th
+		{
+			color : #000;
+/*			border: 1px solid #000;*/
+			padding: 3px;
+		}
+
+
+	TABLE.Tabular_Data TH.th
+		{
+			background: #ccc;
+			border-left: 1px solid #000;
+			border-top: none;
+			border-right: none;
+			border-bottom: none;
+			text-align:	center;
+			vertical-align:top;
+			white-space: wrap;
+		}
+		
+	TABLE.Tabular_Data TD.data
+		{
+			text-align:	 right;
+			white-space: nowrap;
+		}
+
+	TABLE.Tabular_Data TD.data_left
+		{
+			text-align:	 left;
+			white-space: nowrap;
+		}
+		
+	TABLE.Tabular_Data TD.data_right
+		{
+			text-align:	 right;
+			white-space: nowrap;
+		}
+
+	TABLE.Tabular_Data TD.data_center
+		{
+			text-align:	 center;
+			white-space: nowrap;
+		}
+		
+	TABLE.Tabular_Data TR.disabled TD
+		{
+			background: #eee;
+			font-style: italic;
+			color: #ccc;
+		}		
+
+	TABLE.Tabular_Data TR.highlighted TD
+		{
+			background: #ff9;
+		}	
+
+
+	/* Each LOCKED table header needs its own ID in this CSS and
+	   <thead id="locked_2" class="locked_2"> on the page.  To disable
+	   just remove the ID and CLASS...																*/
+	
+	div#table_container_1, div#table_container_2, div#table_container_3, div#table_container_4 
+		{
+		 overflow: auto;
+		}
+		
+	thead.locked_1 th 
+		{
+		 top: expression(document.getElementById("table_container_1").scrollTop-0);
+		 position: relative;
+		}			

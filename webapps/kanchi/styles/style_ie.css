@@ -1,0 +1,601 @@
+body {
+	scrollbar-face-color: #6699FF;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #6699FF;
+	scrollbar-darkshadow-color: #003399;
+	scrollbar-shadow-color: #3366CC;
+	scrollbar-arrow-color: #FFFFFF;
+	scrollbar-track-color: #99CCFF;
+}
+
+
+
+a.navLinks:hover
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #6699FF; 
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a.navLinks
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.navText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #6699FF; 
+	font-weight: bolder;
+	text-decoration: none;
+}
+.pageHeading
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 20px; 
+	color: #000000; 
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.pageHeaderText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FFFFFF; 
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a.pageHeaderText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.colHeaderText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FFFFFF; 
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.commentHeaderText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FFFFFF; 
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.commentHeaderBlueText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.commentText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.commentBigText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.loginText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FFFFFF; 
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.loginHighLightText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.loginHighLightBigText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: none;
+}
+	
+.cap {	
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FFFFFF; 
+	font-weight: bolder;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.pageHeaderBlueText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.smallNavyText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 9px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.customerDetailsText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.customerDetailsWhiteText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #FFFFFF; 
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.customerProductText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #800080; 
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+a.customerDetailsText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+a.customerDetailsText:hover
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #FFFFFF; 
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.accountDetailsText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+	word-wrap:break-word;
+}
+
+a.smallAccountDetailsLink
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: #003399; 
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.smallAccountDetailsText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: #003399; 
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.smallAccountDetailsBigText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.accountDetailsNegText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FF0000; 
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+a.accountDetailsLink
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: normal;
+	text-decoration: underline;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+a.accountDetailsLink:hover
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FFFFFF; 
+	font-weight: normal;
+	text-decoration: underline;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.addressDetailsText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.resultHeaderText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.susresultHeaderText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 2px;
+}
+
+.resultText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+a.resultText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #008000; 
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+a.resultText:hover
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #FF0000; 
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.errorText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: #7E3505; 
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.processText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: red; 
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.blueCapText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 10px;
+	margin-right: 3px;
+}
+
+.whiteText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FFFFFF; 
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.accountSummaryText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.accountSummaryNegText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #FF0000; 
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.errorMessages
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	color: #F0FF00; 
+	font-weight: none;
+	text-decoration: none;
+}
+
+.resultHeaderText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.topWLresultHeaderText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.resultText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+a.resultText
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #008000; 
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+a.resultText:hover
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #FF0000; 
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+
+ .WithBreaks     
+ { 
+	 word-wrap:break-word;
+ }
+
+div {
+	border: 0px solid black;
+	padding: 2px;
+	position: absolute;
+	scrollbar-base-color:#003399; 
+	scrollbar-arrow-color: #99CCFF;
+}
+
+#divTopWLHeader {
+	overflow: auto;
+	left: 150px;
+	top: 190px;
+	width: 600px;
+	height: 48px;
+}
+#divTopWLresult {
+	overflow: auto;
+	left: 150px;
+	top: 240px;
+	width: 602px;
+	height: 210px;
+}
+input,option,select,textarea {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+font-size: 11px; 
+color: #000000;
+}
+
+font {  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: #FF0000; 
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+button{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: #99CCFF; 
+	font-weight: bold;
+
+}
+	
+.csr1
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #003399; 
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.csr2
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	color: #003399; 
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.csr3
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+	line-height: 14px; 
+	color: #003399; 
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.chqIssue
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	color: #006633; 
+	font-weight: normal;
+	text-decoration: none;
+}.vip
+{  
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	color: #6A0000; 
+	font-weight: normal;
+	text-decoration: none;
+}

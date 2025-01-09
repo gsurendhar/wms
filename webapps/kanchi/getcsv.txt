@@ -1,0 +1,14 @@
+
+
+
+
+
+<head>
+<TITLE> HTTP message</TITLE>
+<link href="styles/text.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+</table>
+</body>
+</html>
