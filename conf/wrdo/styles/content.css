@@ -1,0 +1,59 @@
+.contenthead{
+	font-family: Verdana,Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #336699;
+	text-decoration: none;
+}
+
+input,select {
+	font-family: Verdana,Tahoma;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+
+.tablebg {
+	font-family: Verdana, Tahoma;
+	font-size: 11px;
+	color: #F7F7E7;
+	text-decoration: none;
+	text-transform:uppercase;
+	background-color: #F7F7E7;
+
+}
+
+.new-text {
+
+	font-family: Verdana, Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #003300;
+	text-decoration: none;
+}
+.textonly {
+
+	font-family: Verdana, Tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	color: #993300;
+	text-decoration: none;
+	background-color: #F6F5EF;
+}
+#regBoxout {
+	padding: 15px 15px 15px 15px;
+	background-color: #eee;
+	margin: 20px 20px 20px 140px;
+	border: 1px dashed #aaa;
+	width: 720px;
+	
+}
+
+img#bg {
+  position:fixed;
+  top:0;
+  left:0;
+  width:50%;
+  height:50%;
+} 

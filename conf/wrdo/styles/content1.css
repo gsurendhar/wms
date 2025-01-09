@@ -1,0 +1,219 @@
+body,html {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #6B6B6B;
+	text-decoration: none;
+    scrollbar-arrow-color: #FFCC00;
+	scrollbar-3dlight-color: #A5A5A5;
+	scrollbar-highlight-color: #C0C0C0;
+	scrollbar-face-color: #A5A5A5;
+	scrollbar-shadow-color: #C0C0C0;
+	scrollbar-darkshadow-color: #A5A5A5;
+	scrollbar-track-color: #A5A5A5;
+  }
+.tabletxt{
+	font-family: Verdana,Tahoma;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	text-transform:uppercase;
+	background-color: #F9D5BF;
+
+}
+.contenthead{
+	font-family: Verdana,Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #336699;
+	text-decoration: none;
+
+
+
+/*	text-transform:uppercase;*/
+}
+.contentTXTbold {
+	font-family: Verdana,Tahoma;
+	font-size: 10px;
+/*	font-weight: bold;*/
+	color: #646464;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+.managerTXTbold {
+	font-family: Verdana,Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+input,select {
+	font-family: Verdana,Tahoma;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+.border {
+	border: 1px solid #000000;
+}
+.layout{
+border: 1px none #000000;
+}
+.contentTXTbold-bk {
+	font-family: Verdana,Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #646464;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+a{
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover{
+	font-family: Verdana,Tahoma,sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFCC00;
+	text-decoration: none;
+}
+.style1 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.style2 {
+font-size: 14px; 
+font-weight: bold; 
+color: #000000; 
+}
+.contentheadwht {
+	font-family: Verdana, Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #CB9158;
+
+}
+.tablebg {
+	font-family: Verdana, Tahoma;
+	font-size: 11px;
+	color: #F7F7E7;
+	text-decoration: none;
+	text-transform:uppercase;
+	background-color: #F7F7E7;
+
+}
+.siteinfotablebg {
+
+	font-family: Verdana, Tahoma;
+	font-size: 11px;
+	color: #F7F7E7;
+	text-decoration: none;
+	text-transform:uppercase;
+	background-color: #CB9158;
+}
+.gameactbg {
+
+
+	font-family: Verdana, Tahoma;
+	font-size: 11px;
+	color: #F7F7E7;
+	text-decoration: none;
+	text-transform:uppercase;
+	background-color: #C66300;
+}
+.siteinfocontent {
+	font-family: Verdana, Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+.tradingconten {
+	font-family: Verdana,Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #336699;
+	text-decoration: none;
+	background-color: #cccc99;
+
+}
+.tradetabletxt {
+	font-family: Verdana,Tahoma;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	text-transform:uppercase;
+	background-color: #f7f7e7;
+
+}
+.bottomtext {
+
+	font-family: Verdana,Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #336699;
+	text-decoration: none;
+}.selectioncontent {
+	font-family: Verdana, Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	border: thin none #000000;
+	background-color: #FFFFFF;
+
+
+
+
+
+
+}
+.textonly {
+
+	font-family: Verdana, Tahoma;
+	font-size: 10px;
+	font-weight: normal;
+	color: #993300;
+	text-decoration: none;
+}
+.bg-only {
+	text-decoration: none;
+	background-color: #F7CBA4;
+
+}
+.white-bg {
+	text-decoration: none;
+	background-color: #FDE3C8;
+}
+.textonly-bold {
+
+
+	font-family: Verdana, Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #993300;
+	text-decoration: none;
+}
+.light-green {
+
+	text-decoration: none;
+	background-color: #C1E0A3;
+}
+.dark-green {
+
+
+	text-decoration: none;
+	background-color: #87B88D;
+}
